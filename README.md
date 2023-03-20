@@ -27,3 +27,9 @@ We copy the `config.json` file from minikube to the host.
     --docker-server= \
     --docker-username=??? \
     --docker-password=???
+
+After adding the `my-app-deployment.yaml` file we can run the application
+
+    kubectl apply -f my-app-deployment.yaml
+
+    kubectl get pod
